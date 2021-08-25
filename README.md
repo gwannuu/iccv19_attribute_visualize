@@ -1,7 +1,11 @@
 # How to visualize?
 
 - First download rap directory and make named "visualization" directory in project directory.
-- After finishing training, you can make visualized input pictures by giving "visualization=true" option.
+- After finishing training, you can make visualized input pictures by giving "--visualization=true" option.
+
+```
+python main.py --approach=inception_iccv --experiment=rap --visualization=True
+```
 
 Below is the description of original code of ICCV19, Improving pedestrian Attribute Recognition with Weakly-Supervised Multi-Scale Attribute-Specific-Localization"
 Yu can find original code in here (https://github.com/chufengt/iccv19_attribute)
