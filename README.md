@@ -12,6 +12,8 @@ python main.py --approach=inception_iccv --experiment=rap --visualization=True
 Below is the description of original code of ICCV19, Improving pedestrian Attribute Recognition with Weakly-Supervised Multi-Scale Attribute-Specific-Localization"
 Yu can find original code in here (https://github.com/chufengt/iccv19_attribute)
 
+--------------------
+
 ## Improving Pedestrian Attribute Recognition With Weakly-Supervised Multi-Scale Attribute-Specific Localization
 
 Code for the paper "Improving Pedestrian Attribute Recognition With Weakly-Supervised Multi-Scale Attribute-Specific Localization", ICCV 2019, Seoul.
