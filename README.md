@@ -1,7 +1,9 @@
 # How to visualize?
 
-- First download rap directory and make named "visualization" directory in project directory.
+- First download rap directory and make named "visualization" empty directory in project directory.
 - After finishing training, you can make visualized input pictures by giving "--visualization=true" option.
+
+Visualization=True option may fill your empty named "visualization" directory
 
 ```
 python main.py --approach=inception_iccv --experiment=rap --visualization=True
