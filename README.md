@@ -57,5 +57,6 @@ If this work is useful to your research, please cite:
 
 ## How to visualize?
 
-First download rap directory and make named "visualization" directory in project directory.
-After finishing training, you can make visualized input pictures by giving "visualization=true" option.
+- First download rap directory and make named "visualization" directory in project directory.
+
+- After finishing training, you can make visualized input pictures by giving "visualization=true" option.
