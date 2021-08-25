@@ -6,12 +6,12 @@ Code for the paper "Improving Pedestrian Attribute Recognition With Weakly-Super
 
 Contact: chufeng.t@foxmail.com or tcf18@mails.tsinghua.edu.cn
 
-## Environment
+### Environment
 
 - Python 3.6+
 - PyTorch 0.4+
 
-## Datasets
+### Datasets
 
 - RAP: http://rap.idealtest.org/
 - PETA: http://mmlab.ie.cuhk.edu.hk/projects/PETA.html
@@ -21,7 +21,7 @@ The original datasets should be processed to match the DataLoader.
 
 We provide the label lists for training and testing.
 
-## Training and Testing
+### Training and Testing
 
 ```
 python main.py --approach=inception_iccv --experiment=rap
@@ -31,7 +31,7 @@ python main.py --approach=inception_iccv --experiment=rap
 python main.py --approach=inception_iccv --experiment=rap -e --resume='model_path'
 ```
 
-## Pretrained Models
+### Pretrained Models
 
 We provide the pretrained models for reference, the results may slightly different with the values reported in our paper.
 
@@ -41,7 +41,7 @@ We provide the pretrained models for reference, the results may slightly differe
 | RAP     | 81.86 | [Model](https://drive.google.com/file/d/15paMK0-rKDsuzptDPK5kH2JuL8QO0HyS/view?usp=sharing) |
 | PA-100K | 80.45 | [Model](https://drive.google.com/file/d/1xIw3jpvE1pDC3U464kcFJ58iSKCRNQ63/view?usp=sharing) |
 
-## Reference
+### Reference
 
 If this work is useful to your research, please cite:
 
@@ -54,3 +54,8 @@ If this work is useful to your research, please cite:
   year={2019}
 }
 ```
+
+## How to visualize?
+
+First download rap directory and make named "visualization" directory in project directory.
+After finishing training, you can make visualized input pictures by giving "visualization=true" option.
