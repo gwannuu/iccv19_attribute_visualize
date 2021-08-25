@@ -1,4 +1,12 @@
-# Improving Pedestrian Attribute Recognition With Weakly-Supervised Multi-Scale Attribute-Specific Localization
+# How to visualize?
+
+- First download rap directory and make named "visualization" directory in project directory.
+- After finishing training, you can make visualized input pictures by giving "visualization=true" option.
+
+Below is the description of original code of ICCV19, Improving pedestrian Attribute Recognition with Weakly-Supervised Multi-Scale Attribute-Specific-Localization"
+Yu can find original code in here (https://github.com/chufengt/iccv19_attribute)
+
+## Improving Pedestrian Attribute Recognition With Weakly-Supervised Multi-Scale Attribute-Specific Localization
 
 Code for the paper "Improving Pedestrian Attribute Recognition With Weakly-Supervised Multi-Scale Attribute-Specific Localization", ICCV 2019, Seoul.
 
@@ -54,9 +62,3 @@ If this work is useful to your research, please cite:
   year={2019}
 }
 ```
-
-## How to visualize?
-
-- First download rap directory and make named "visualization" directory in project directory.
-
-- After finishing training, you can make visualized input pictures by giving "visualization=true" option.
