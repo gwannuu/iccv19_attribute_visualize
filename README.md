@@ -1,4 +1,20 @@
-# Improving Pedestrian Attribute Recognition With Weakly-Supervised Multi-Scale Attribute-Specific Localization
+# How to visualize?
+
+- First download rap directory and make named "visualization" empty directory in project directory.
+- After finishing training, you can make visualized input pictures by giving "--visualization=true" option.
+
+Visualization=True option may fill your empty named "visualization" directory
+
+```
+python main.py --approach=inception_iccv --experiment=rap --visualization=True
+```
+
+Below is the description of original code of ICCV19, Improving pedestrian Attribute Recognition with Weakly-Supervised Multi-Scale Attribute-Specific-Localization"
+Yu can find original code in here (https://github.com/chufengt/iccv19_attribute)
+
+--------------------
+
+## Improving Pedestrian Attribute Recognition With Weakly-Supervised Multi-Scale Attribute-Specific Localization
 
 Code for the paper "Improving Pedestrian Attribute Recognition With Weakly-Supervised Multi-Scale Attribute-Specific Localization", ICCV 2019, Seoul.
 
@@ -6,12 +22,12 @@ Code for the paper "Improving Pedestrian Attribute Recognition With Weakly-Super
 
 Contact: chufeng.t@foxmail.com or tcf18@mails.tsinghua.edu.cn
 
-## Environment
+### Environment
 
 - Python 3.6+
 - PyTorch 0.4+
 
-## Datasets
+### Datasets
 
 - RAP: http://rap.idealtest.org/
 - PETA: http://mmlab.ie.cuhk.edu.hk/projects/PETA.html
@@ -21,7 +37,7 @@ The original datasets should be processed to match the DataLoader.
 
 We provide the label lists for training and testing.
 
-## Training and Testing
+### Training and Testing
 
 ```
 python main.py --approach=inception_iccv --experiment=rap
@@ -31,7 +47,7 @@ python main.py --approach=inception_iccv --experiment=rap
 python main.py --approach=inception_iccv --experiment=rap -e --resume='model_path'
 ```
 
-## Pretrained Models
+### Pretrained Models
 
 We provide the pretrained models for reference, the results may slightly different with the values reported in our paper.
 
@@ -41,7 +57,7 @@ We provide the pretrained models for reference, the results may slightly differe
 | RAP     | 81.86 | [Model](https://drive.google.com/file/d/15paMK0-rKDsuzptDPK5kH2JuL8QO0HyS/view?usp=sharing) |
 | PA-100K | 80.45 | [Model](https://drive.google.com/file/d/1xIw3jpvE1pDC3U464kcFJ58iSKCRNQ63/view?usp=sharing) |
 
-## Reference
+### Reference
 
 If this work is useful to your research, please cite:
 
