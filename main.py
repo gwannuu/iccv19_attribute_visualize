@@ -64,9 +64,7 @@ def main():
             batch_size=1, shuffle=False, num_workers=4, pin_memory=True)
 
         # create model
-        model = models.__dict__[args.approach](pretrained=True, num_classes=attr_num)
-        model = torch.nn.DataParallel(model).cuda()
-        model.load_state_dict(torch.load('saved_model.pt'))
+        model = torch.load('saved_model.pt')
         model.eval()
 
         # get the number of model parameters
