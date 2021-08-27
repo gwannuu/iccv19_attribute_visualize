@@ -1,7 +1,8 @@
 # How to visualize?
 
-- First download rap directory and make named "visualization" empty directory in project directory.
-- After finishing training, you can make visualized input pictures by giving "--visualization=true" option.
+- First download rap directory (root 디렉토리에 rap dataset 위치시킴)
+- make named "visualization" empty directory in project directory. (root 디렉토리에 visualization이란 이름의 디렉토리 생성)
+- After finishing training, you can make visualized input pictures by giving "--visualization=true" option. (training 이후에 model이 'saved_model.pt'라는 이름으로 root 디렉토리에 자동 저장됨. visualization 시에는 저장된 모델을 불러와서 시각화된 이미지파일들을 visualization 디렉토리에 저장함)
 
 Visualization=True option may fill your empty named "visualization" directory
 
