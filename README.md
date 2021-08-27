@@ -1,3 +1,7 @@
+# What I did
+
+I visualize the result of "spatial transformer network" module of "Improving Pedestrian Attribute Recognition With Weakly-Supervised Multi-Scale Attribute-Specific Localization". I follows visualization method of original paper. 
+
 # How to visualize?
 
 - First download rap directory (root 디렉토리에 rap dataset 위치시킴)
