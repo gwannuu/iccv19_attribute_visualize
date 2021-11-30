@@ -2,6 +2,8 @@
 
 I visualize the result of "spatial transformer network" module of "Improving Pedestrian Attribute Recognition With Weakly-Supervised Multi-Scale Attribute-Specific Localization". I follows visualization method of original paper. 
 
+see model/inception.py -> class inceptionnet -> def visualization
+
 # How to visualize?
 
 - First download rap directory (root 디렉토리에 rap dataset 위치시킴)
